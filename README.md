@@ -15,7 +15,7 @@
 根据配置文件中的正则表达式规则，解析文本文件并生成`[{name,message}]`格式 JSON 文件，或根据翻译文件替换文本文件中的内容。
 
 ```config.ini
-startline=6351
+startline=0
 
 00_skip=^◆.+?◆([\x00-\x7F])
 01_search=^◆.+?◆(?P<msg>[^「『（].*[。！？、‥])$
